@@ -1,0 +1,26 @@
+{
+  "name": "express-brute-lowdb",
+  "version": "0.1.0",
+  "description": "A lowdb storage adapter for express-brute middleware",
+  "keywords": ["express", "brute", "lowdb"],
+  "homepage": "https://github.com/MunifTanjim/express-brute-lowdb#readme",
+  "bugs": "https://github.com/MunifTanjim/express-brute-lowdb/issues",
+  "license": "MIT",
+  "author": "Munif Tanjim (https://muniftanjim.com)",
+  "main": "index.js",
+  "repository": "github:MunifTanjim/express-brute-lowdb",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "express-brute": "^1.0.1",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "peerDependencies": {
+    "express-brute": "^1.x",
+    "lowdb": "^1.x"
+  }
+}
